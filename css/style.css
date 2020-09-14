@@ -438,10 +438,6 @@ h2, h3, h4 {
 
 /* Merch Section */
 
-.merch {
-    
-}
-
     .merch-head {
         font-size: 2.5em;
         /* color: #f8f8f8; */
@@ -456,6 +452,7 @@ h2, h3, h4 {
         padding: 5px 35px;
     
     }
+
 
     .split {
         display: flex;
