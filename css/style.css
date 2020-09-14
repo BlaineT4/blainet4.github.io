@@ -636,13 +636,15 @@ footer p {
     font-size: 1.8em;
 }
 
+.rev-hide {
+    display: none;
+}
+
 }
 
 /* Utility CSS */
 
-.rev-hide {
-    display: none;
-}
+
 
 
 /* 520px Width */
