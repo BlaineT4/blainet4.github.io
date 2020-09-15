@@ -43,6 +43,10 @@ h2, h3, h4 {
     font-weight: bolder;
 }
 
+.thin {
+    font-weight: 300;
+}
+
 .break {
     border: 1px solid #fff;
     margin-top: 25px 
@@ -355,6 +359,33 @@ h2, h3, h4 {
     padding: 10px 0;
 }
 
+
+/* News Section */
+
+.news-head {
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.blog-post p {
+    margin: 10px auto;
+}
+
+.blog-img {
+    /* width: 80%; */
+    /* margin: auto; */
+    width: 80%;
+    float: none;
+    margin: 40px 0 0 0;
+}
+
+.news img {
+    /* margin: auto; */
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
 
 /* Releases Section */
 
