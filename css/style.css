@@ -448,9 +448,11 @@ h2, h3, h4 {
     }
 
     .merch-items img {
-        max-width: 17em;
-        padding: 5px 35px;
-    
+        width: 17em;
+        padding: 0 35px;
+    }
+    .merch-items img:hover {
+        transform: scale(1.02);
     }
 
 
@@ -466,12 +468,17 @@ h2, h3, h4 {
     .split p {
         text-decoration: none;
         text-align: center;
+        padding: 10px 0;
+        margin: auto;
+        margin-top: 0;
         margin-bottom: 20px;
+        background-color: #333;
+        color: #f8f8f8;
+        width: 80%;
+        font-weight: 300;
     }
 
-    .merch-items img:hover {
-        transform: scale(1.02);
-    }
+
 
     /* .split > * {
         flex-basis: 30%;
