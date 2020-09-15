@@ -451,6 +451,7 @@ h2, h3, h4 {
         width: 17em;
         padding: 0 35px;
     }
+    
     .merch-items img:hover {
         transform: scale(1.02);
     }
@@ -471,7 +472,7 @@ h2, h3, h4 {
         padding: 10px 0;
         margin: auto;
         margin-top: 0;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         background-color: #333;
         color: #f8f8f8;
         width: 80%;
