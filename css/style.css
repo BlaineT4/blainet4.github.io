@@ -475,6 +475,7 @@ h2, h3, h4 {
         margin: 30px 0;
         /* border-radius: 50px; */
         
+        
     }
 
     .split p {
@@ -488,6 +489,10 @@ h2, h3, h4 {
         color: #f8f8f8;
         width: 17em;
         font-weight: 300;
+    }
+
+    .split a {
+        text-decoration: none;
     }
 
     .merch-details {
@@ -526,7 +531,7 @@ h2, h3, h4 {
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         text-align: center;
-        text-shadow: 0 0 10px  #000;
+        text-shadow: 0 0 5px #333;
         z-index: 10;
     }
 
@@ -551,7 +556,7 @@ h2, h3, h4 {
       
 
     .contain-merch:hover {
-        filter: brightness(50%);
+        /* filter: brightness(50%); */
         filter: contrast(50%);
         filter: grayscale(100%);
     }
