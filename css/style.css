@@ -365,7 +365,7 @@ h2, h3, h4 {
 .news-head {
     font-size: 2.5em;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 .blog-post p {
@@ -374,8 +374,8 @@ h2, h3, h4 {
 
 .blog-img {
     /* width: 80%; */
-    /* margin: auto; */
-    width: 80%;
+    margin: auto;
+    width: 100%;
     float: none;
     margin: 40px 0 0 0;
 }
@@ -383,7 +383,7 @@ h2, h3, h4 {
 .news img {
     /* margin: auto; */
     text-align: center;
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
@@ -834,6 +834,25 @@ footer p {
      padding-bottom: 30px;
 
  }
+
+
+ /* New Section MQ */
+
+.blog-img {
+    box-sizing: border-box;
+    float: right;
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.news-head {
+    float: left;
+    width: 50%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
 
 
  /* Releases Section MQ */
