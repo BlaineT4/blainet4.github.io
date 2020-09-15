@@ -36,7 +36,7 @@ h2, h3, h4 {
 
 .selected {
     background-color: #ddd;
-    /* filter: invert(75%) */
+    filter: invert(95%)
 }
 
 .bold {
@@ -83,7 +83,7 @@ h2, h3, h4 {
 .header ul a:hover {
     background-color: #ddd;
     transform: scale(1.05);
-    filter: invert(95%);
+    /* filter: invert(95%); */
 }
 
 
